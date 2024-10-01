@@ -3,6 +3,7 @@ import { headerClick } from './header';
 import '../css/style.css';
 // TODO: Import yellow robot image as 'Yellow'
 import Yellow from '../img/yellow-robot.png';
+import Blue from '../img/blue-robot.png';
 
 document.getElementById('boxBtn').addEventListener('click', boxClick);
 document.getElementById('headerBtn').addEventListener('click', headerClick);
