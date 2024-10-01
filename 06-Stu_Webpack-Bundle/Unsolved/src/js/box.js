@@ -1,5 +1,7 @@
 // TODO: Import yellow robot image as Yellow
 // TODO: Import blue robot image as Blue
+import Yellow from '../img/yellow-robot.png';
+import Blue from '../img/blue-robot.png';
 
 export const boxClick = () => {
   const box = document.getElementById('box');
