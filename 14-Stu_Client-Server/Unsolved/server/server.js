@@ -4,6 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // TODO: Add comment on role of code below
+// This code serves the client-side code to the client when they visit the root URL of the site.
 app.use(express.static('../client/dist'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());

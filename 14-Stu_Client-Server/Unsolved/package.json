@@ -19,7 +19,11 @@
   },
   "comments": {
     "comment-start:dev": "TODO: Add your comment about start:dev script inside these quotes",
+    // comment-start:dev is a script that runs two commands concurrently. 
+    // The first command changes the directory to the client folder and runs the build script. 
+    //The second command changes the directory to the server folder and runs the server script.
     "comment-concurrently": "TODO: Add your comment about concurrently inside these quotes"
+    // comment-concurrently is a package that allows you to run multiple commands concurrently.
   }
 }
 
